@@ -16,6 +16,8 @@ Ensure you have the following installed on your system:
 
 ```bash
 git clone https://github.com/syfullzaedy/mobeecars.app.git
+```
+```bash
 cd mobeecars.app
 ```
 
@@ -26,7 +28,8 @@ Install the required backend and frontend packages:
 ```bash
 # Install PHP dependencies
 composer install
-
+```
+```bash
 # Install Node dependencies
 npm install
 ```
