@@ -25,12 +25,12 @@ cd mobeecars.app
 
 Install the required backend and frontend packages:
 
-```bash
 # Install PHP dependencies
+```bash
 composer install
 ```
-```bash
 # Install Node dependencies
+```bash
 npm install
 ```
 
@@ -72,11 +72,12 @@ php artisan migrate
 
 Compile your frontend assets using Vite:
 
-```bash
 # For local development (live-reloads asset changes)
+```bash
 npm run dev
-
+```
 # OR build assets for production
+```bash
 npm run build
 ```
 
