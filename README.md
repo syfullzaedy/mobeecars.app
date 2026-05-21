@@ -34,6 +34,7 @@ npm install
 ### 3. Environment Configuration
 
 Copy the local environment file to create your local configurations:
+
 (Command Prompt)
 ```bash
 copy .env.local .env
@@ -47,8 +48,13 @@ cp .env.local .env
 
 Create SQLite file to as a database:
 
+(Command Prompt)
 ```bash
 type nul > database\database.sqlite
+```
+(Linux)
+```bash
+touch database\database.sqlite
 ```
 
 ### 5. Run Database Migrations & Seeders
