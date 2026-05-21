@@ -36,7 +36,7 @@ npm install
 Copy the local environment file to create your local configurations:
 
 ```bash
-cp .env.local .env
+copy .env.local .env
 ```
 
 ### 4. Run Database Migrations & Seeders
