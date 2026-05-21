@@ -34,9 +34,13 @@ npm install
 ### 3. Environment Configuration
 
 Copy the local environment file to create your local configurations:
-
+(Command Prompt)
 ```bash
 copy .env.local .env
+```
+(Linux)
+```bash
+cp .env.local .env
 ```
 
 ### 4. Create SQLite File
