@@ -39,12 +39,12 @@ Copy the local environment file to create your local configurations:
 cp .env.local .env
 ```
 
-### 4. Generate Application Key
+### 4. Run Database Migrations & Seeders
 
-Generate a secure application encryption key:
+Create the database tables and populate them with initial data (if seeders exist):
 
 ```bash
-php artisan key_generate --ansi
+php artisan migrate
 ```
 
 ### 5. Compile Assets
