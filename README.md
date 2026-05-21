@@ -39,7 +39,15 @@ Copy the local environment file to create your local configurations:
 copy .env.local .env
 ```
 
-### 4. Run Database Migrations & Seeders
+### 4. Create SQLite File
+
+Create SQLite file to as a database:
+
+```bash
+type nul > database\database.sqlite
+```
+
+### 5. Run Database Migrations & Seeders
 
 Create the database tables and populate them with initial data (if seeders exist):
 
@@ -47,7 +55,7 @@ Create the database tables and populate them with initial data (if seeders exist
 php artisan migrate
 ```
 
-### 5. Compile Assets
+### 6. Compile Assets
 
 Compile your frontend assets using Vite:
 
@@ -59,7 +67,7 @@ npm run dev
 npm run build
 ```
 
-### 6. Link Storage (Optional)
+### 7. Link Storage (Optional)
 
 If your project handles file uploads or public media, link the storage directory:
 
@@ -67,7 +75,7 @@ If your project handles file uploads or public media, link the storage directory
 php artisan storage:link
 ```
 
-### 7. Start the Local Server
+### 8. Start the Local Server
 
 Run the built-in PHP development server:
 
